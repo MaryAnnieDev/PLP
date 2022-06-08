@@ -13,6 +13,8 @@ body{
    font-size: 25px;
     text-align: center;
     color:black;
+    border:10px;
+    border-color: #00c4cc;
 }
 #Creators:hover{
     color: #00c4cc;
@@ -24,9 +26,10 @@ body{
 li{
     list-style: none;
 }
+
 header{
     width: 100%;
-    height: 400px;
+    height: 300px;
     font-size: 100px;
     display: flex;
     align-items: center;
@@ -34,18 +37,12 @@ header{
     color:#530d63;
 
 }
-video{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
 section{
     display: flex;
     align-items: center;
     justify-content: center;
+ 
 }
 #GettingStarted{
  background: black;
@@ -56,13 +53,14 @@ section{
   color: #530d63;
     -webkit-font-smoothing: antialiased !important;
 
+
 }
 #GettingStarted:hover{
     color: #00c4cc;
 }
 a{
  text-decoration: none;
-    color:black;
+    color:#530d63;
 }
 a:hover{
     text-decoration: none;
